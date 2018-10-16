@@ -25,7 +25,7 @@ object Main extends App {
 
   FirstActor.tell("mx", SecondActor)
 
+  val remoteActor = system.actorSelection("akka://hurricane@127.0.0.1:25555/user/firstactor")
 
-
-
+  remoteActor.tell("fffffffffffffuuuuuuuuuuuuuuckckckck yeayae>!!!!!!", SecondActor)
 }
