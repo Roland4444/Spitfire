@@ -17,7 +17,7 @@ class SecondActor extends Actor {
 }
 
 object Main extends App {
-  val system = ActorSystem("HelloSystem")
+  val system = ActorSystem("spitfire")
   //system.logConfiguration()
   // default Actor constructor
   val FirstActor = system.actorOf(Props[FirstActor], name = "firstactor")
